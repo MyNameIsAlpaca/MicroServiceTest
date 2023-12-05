@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyHttp", "ProxyHttp.csproj", "{D6BBA3B4-31DE-4732-ABD5-0357262F02C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorsSvc", "..\AuthorsSvc\AuthorsSvc.csproj", "{6CA1999F-056A-4C5C-A296-113E1FEF67D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksSvc", "..\BooksSvc\BooksSvc.csproj", "{500E4570-C6C8-44F6-A277-BE2F1C7A067A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BBA3B4-31DE-4732-ABD5-0357262F02C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BBA3B4-31DE-4732-ABD5-0357262F02C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BBA3B4-31DE-4732-ABD5-0357262F02C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BBA3B4-31DE-4732-ABD5-0357262F02C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA1999F-056A-4C5C-A296-113E1FEF67D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA1999F-056A-4C5C-A296-113E1FEF67D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA1999F-056A-4C5C-A296-113E1FEF67D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA1999F-056A-4C5C-A296-113E1FEF67D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500E4570-C6C8-44F6-A277-BE2F1C7A067A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500E4570-C6C8-44F6-A277-BE2F1C7A067A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500E4570-C6C8-44F6-A277-BE2F1C7A067A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500E4570-C6C8-44F6-A277-BE2F1C7A067A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B907A544-CB80-450C-8AE6-939B271A922E}
+	EndGlobalSection
+EndGlobal
